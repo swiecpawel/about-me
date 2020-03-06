@@ -1,0 +1,184 @@
+body{
+    font-family:   'Spartan', sans-serif;
+    margin: 0 0 0 0
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+}
+header{
+    background-color: #5270FF;
+
+}
+.foot {
+    margin: auto;
+}
+#name {
+    color: black;
+    font-size: 25px;
+    margin-top: 20px;
+}
+h1 {
+    color: black;
+    font-size: 20px;
+    min-width: 60px;
+    }
+h2{
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 60px;
+}
+table.skill_tab {
+    display: flex;
+    justify-content: center;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: dodgerblue;
+}
+a:visited {
+    color: black;
+}
+hr {
+    border-color: black;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #5270FF, #a4b9d4, white)
+}
+#column_1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px
+}
+#column_2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px
+}
+#photo {
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.header_h1{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.header_h2_col1 {
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 25px;
+}
+.period_jobtitle {
+    text-align: right;
+}
+.company_imp {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+.job_dis_imp {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 25px;
+}
+.company_unimp {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.edu_title {
+    margin-top: 10px;
+}
+.edu_tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.major_hobby {
+    color: black;
+    font-weight: normal;
+    text-align: center;
+}
+.major_imp {
+    color: black;
+    font-weight: bold;
+}
+.major_imp_data {
+    text-align: center;
+    order: -1;
+}
+@media only screen and (min-width:768px) {
+    #content{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row
+    }
+    #column_1{
+        width: 40%;
+        background-color: #5270FF;
+        padding: 15px 50px 15px 50px;
+    }
+    #column_2{
+        align-items: normal;
+        width: 60%;
+        background-color: white;
+        padding: 15px 50px 15px 50px;
+    }
+    #name {
+        color: white;
+        font-size: 35px;
+    }
+    .header_h1 {
+        color: black;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .header_h2_col1 {
+        color: white;
+    }
+    .hr_col1 {
+        border-color: white;
+    }
+    .company_imp {
+        font-weight: bold;
+        text-align: center;
+    }
+    .job_dis_imp {
+        color: #5270FF;
+        font-weight: bolder;
+        text-align: left;
+    }
+    .edu_tab {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .major_hobby {
+        color: #5270FF;
+        font-weight: normal;
+        text-align: left;
+
+    }
+    .major_imp {
+        color: #5270FF;
+        font-weight: bold;
+    }
+    .major_imp_data {
+
+        order: 0;
+    }
+}
